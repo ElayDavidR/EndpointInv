@@ -17,6 +17,10 @@ for /f %i IN ('dir /a /b C:\Users') DO @echo %i
 # Media connections (Powershell registry queries)
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\\STOR
 
+# Tools' data
+
+# Output everything in format to process
+
 --- Persistancy ---
 
 # Scheduled  tasks
