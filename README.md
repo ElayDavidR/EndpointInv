@@ -22,7 +22,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\\STOR
 # Scheduled  tasks
 
 # WMI
-
+1
 # Startup folder
 
 # Registry
