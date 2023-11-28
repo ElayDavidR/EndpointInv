@@ -31,3 +31,4 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\\STOR
 
 # Registry
 
+111
