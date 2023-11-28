@@ -2,7 +2,7 @@
 
 # Domains history - E
 	# Win7+:	
-wevtutil qe System /q:"Event[System[(EventID=3260)]]" /c:1 /f:text | findstr "This computer"
+for /f "delims=" %i IN ('wevtutil qe System /q:"Event[System[(EventID=3260)]]" /c:9 /f:text') DO @echo %i | findstr "This computer"
 	# WinXP:
 eventquery.vbs
 
